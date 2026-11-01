@@ -157,7 +157,7 @@ Notes: rmdir removes only empty directories. If a directory contains file or oth
 
 ## 6. touch - create a new file
 "touch" command is used to create empty files and update file timestamps.
-
+### Common touch commands
 ## i. touch file_name
 Creates a new file
 
@@ -186,8 +186,39 @@ Updates the access time of a file.
 touch -a file_name
 ```
 
+## 7. cat = Concatenate
+The "cat" command is used to display file contents, create files, combine files, and append text to files.
+### Common cat commands
 
+## i. cat file_name
+Displays the contents
+```bash
+cat note.txt
+```
+It displays the contents of note.txt in terminal.
 
+## ii. cat > file_name
+Create and write a file
+```bash
+cat > note.txt
+```
+Type the texts, then press Ctrl+D to save and exit. There will be create a file named note.txt and the text will be saved in this file.
+Notes: if note.txt is already exists, this overwrite its existing contents.
+
+## iii. cat >> file_name
+Type additional text and save
+```bash
+cat >> note.txt
+```
+Here we can add texts in note.txt file and save.
+
+## iv. cat file_name file_name
+Displays all text together
+```bash
+cat file1.txt file2.txt
+```
+
+## v. 
 
 
 
