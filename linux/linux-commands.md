@@ -12,7 +12,7 @@ pwd
 
 
 ## 2. ls - List Directory Contents
-The ls command is used to display files and directories in the current or specified directory.
+The 'ls' command is used to display files and directories in the current or specified directory.
 
 ## Common ls options
 
@@ -53,8 +53,7 @@ Sorts files and directories by modification time, newest first.
 ls -t
 ```
 
-
-## 3. cd -- Changing Directory command
+## 3. cd - Changing Directory command
 It changes the current working directory from one directory to another directory.
 
 ## i. cd
@@ -83,7 +82,6 @@ Moves two directory levels up.
 ```bash
 cd ../..
 ```
-
 ## v. cd /
 Takes to the root directory.
 
@@ -96,7 +94,6 @@ Returns to the previous working directory.
 ```bash
 cd -
 ```
-
 
 ## 4. mkdir - Make Directory
 The 'mkdir' command is used to create new directory/folder in linux.
@@ -154,7 +151,6 @@ rmdir -r CEH/practice
 ```
 Notes: rmdir removes only empty directories. If a directory contains file or other directories, rmdir cannot remove it.
 
-
 ## 6. touch - create a new file
 "touch" command is used to create empty files and update file timestamps.
 ### Common touch commands
@@ -165,7 +161,6 @@ Creates a new file
 touch book.txt
 ```
 It creates an empty file named book.txt in current directory if it doesn't already exist.
-
 ## ii. touch file_name1 file_name2
 Creates a multiple files
 
@@ -191,7 +186,7 @@ The "cat" command is used to display file contents, create files, combine files,
 ### Common cat commands
 
 ## i. cat file_name
-Displays the contents
+Displays the contents of a file.
 ```bash
 cat note.txt
 ```
