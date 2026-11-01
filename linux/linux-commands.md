@@ -232,7 +232,7 @@ Joins two files contents(file1,file2) and stores the output in a new file(file3)
 cat file_name1 file_name2 > file_name3
 ```
 
-## less command
+## 8. less command
 The less command allows to read large text files page by page without loading the entire content into terminal display.
 ### Common less commands
 
@@ -275,7 +275,7 @@ n     = Previous search match,
 q     = Quit.
 
 
-## 7. "head" command in Linux
+## 9. "head" command in Linux
 The head command displays the beginning (first lines) of a file.
 By default, it displays the first 10 lines of a file.
 ### Common 'head' commands
@@ -322,7 +322,7 @@ head -v file_name1 file_name2
 ```
 
 
-## 9. "tail" command in Linux
+## 10. "tail" command in Linux
 The head command displays the last lines of a file.
 By default, it displays the last 10 lines of a file.
 
