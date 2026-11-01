@@ -280,6 +280,94 @@ n     = Previous search match,
 q     = Quit.
 
 
+## 7. "head" command in Linux
+The head command displays the beginning (first lines) of a file.
+By default, it displays the first 10 lines of a file.
+### Common 'head' commands
+
+## i. head file_name
+It displays the first 10 lines of that file.
+```bash
+head lab.txt
+```
+This displays the first 10 lines of lab.txt.
+
+## ii. head -n 5 file_name
+It displays the first 5 lines of the file.
+```bash
+head -n 5 library.txt
+```
+It displays the first 5 lines of library.txt file.
+
+## iii. head -n 10 file_name1 file_name2
+It displays the first 10 lines of both two files.
+```bash
+head -n 20 note.txt book.txt
+```
+Note : 'n' = number of lines to display
+
+## iv. head -c 50 file_name
+It displays first 50 bytes of the file
+```bash
+head -c 50 poem.txt
+```
+It displays the first 50 bytes of poem.txt file.
+Note: 'c' = number of sizes to display
+
+## v. head -q file_name1 file_name2
+Hides filenames when displaying multiple files
+```bash
+head -q file_name1 file_name2
+```
+
+## vi. head -v file_name1 file_name2
+Always displays the filename header
+```bash
+head -v file_name1 file_name2
+```
+
+
+## 9. "tail" command in Linux
+The head command displays the last lines of a file.
+By default, it displays the last 10 lines of a file.
+
+### Common 'tail' commands
+## i. tail notes.txt
+It displays the last 10 lines of notes.txt file.
+```bash
+tail notes.txt
+```
+## ii. tail -n 5 notes.txt
+It displays the last 5 lines of notes.txt file.
+```bash
+tail -n 5 notes.txt
+```
+## iii. tail -c 20 notes.txt
+It displays the last 20 bytes of notes.txt file.
+```bash
+tail -c 20 notes.txt
+```
+### iv. tail -f filename
+Its Continuously monitors new content
+```bash
+tail -f filename
+```
+This displays new lines as they are added to the log file.
+Press Ctrl + C to stop monitoring.
+
+## v. tail -q filename1 filename2
+Hides filename headers
+```bash
+tail -q filename1 filename2
+```
+
+## vi. tail -v filename1 filename2
+Always displays filename headers
+```bash
+tail -v filename1 filename2
+```
+
+
 
 
 
