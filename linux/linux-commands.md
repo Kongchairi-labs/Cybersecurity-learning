@@ -203,6 +203,7 @@ Create and write a file
 cat > note.txt
 ```
 Type the texts, then press Ctrl+D to save and exit. There will be create a file named note.txt and the text will be saved in this file.
+
 Notes: if note.txt is already exists, this overwrite its existing contents.
 
 ## iii. cat >> file_name
@@ -236,7 +237,47 @@ Joins two files contents(file1,file2) and stores the output in a new file(file3)
 cat file_name1 file_name2 > file_name3
 ```
 
+## less command
+The less command allows to read large text files page by page without loading the entire content into terminal display.
+### Common less commands
 
+## i. less file_name
+The file contents will open on navigation screen.
+```bash
+less file_name
+```
+## ii. less -N file_name
+Shows contents with line numbers
+```bash
+less -N file_name
+```
+## iii. less -S file_name
+Prevents long lines from wrapping
+```bash
+less -S file_name
+```
+
+## iv. less +G file_name
+Opens at the end of the file
+```bash
+less +G file_name
+```
+## v. less -i file_name
+Case-insensitive searching
+```bash
+less -i file_name
+```
+### Navigation inside "less"
+KEY   = FUNCTION
+Space = Next page
+b     = Previous page
+Enter = Next line
+k     = Previous line
+g     = Go to beggining
+G     = Go to end
+/word = Search for word
+n     = Previous search match
+q     = Quit
 
 
 
