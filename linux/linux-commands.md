@@ -268,16 +268,16 @@ Case-insensitive searching
 less -i file_name
 ```
 ### Navigation inside "less"
-KEY   = FUNCTION
-Space = Next page
-b     = Previous page
-Enter = Next line
-k     = Previous line
-g     = Go to beggining
-G     = Go to end
-/word = Search for word
-n     = Previous search match
-q     = Quit
+KEY   = FUNCTION, 
+Space = Next page, 
+b     = Previous page, 
+Enter = Next line, 
+k     = Previous line, 
+g     = Go to beginning, 
+G     = Go to end, 
+/word = Search for word, 
+n     = Previous search match, 
+q     = Quit.
 
 
 
