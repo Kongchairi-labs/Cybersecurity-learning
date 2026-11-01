@@ -10,6 +10,7 @@ Displays the current working directory.
 pwd
 ```
 
+
 ## 2. ls - List Directory Contents
 The ls command is used to display files and directories in the current or specified directory.
 
@@ -95,5 +96,29 @@ Returns to the previous working directory.
 ```bash
 cd -
 ```
+
+
+## 4. mkdir - Make Directory
+The 'mkdir' command is used to create new directory/folder in linux.
+
+### Common mkdir commands
+## 1. mkdir directory_name
+Its creates a new directory.
+
+```bash
+mkdir cybersecurity
+```
+Then it will create the directory as named cybersecurity.
+## 2. To create multiple directory together.
+
+```bash
+mkdir directory1 directory2 directory3
+```
+## 3. Making Parent and Subdirectory together
+```bash
+mkdir -p cybersecurity/practise
+```
+
+
 
 
