@@ -218,7 +218,25 @@ Displays all text together
 cat file1.txt file2.txt
 ```
 
-## v. 
+## v. cat -n file_name
+Displays file contents with line numbers including blank lines.
+```bash
+cat -n file_name
+```
+
+## vi. cat -b file_name
+Displays line numbers only for non-empty lines.
+```bash
+cat -b file_name
+```
+
+## vii. cat file1 file2 > file3
+Joins two files contents(file1,file2) and stores the output in a new file(file3) 
+```bash
+cat file_name1 file_name2 > file_name3
+```
+
+
 
 
 
